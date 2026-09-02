@@ -1,0 +1,64 @@
+<html>
+<body>
+    <head>
+        <title>formulario</title><meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+        <style>
+           
+               .botones {  border: 1px brown solid;
+                font-family: fantasy;
+                bottom: green;  }
+                 .textbox{
+                border: 1px solid #C5C5C5;
+                font-size: 12px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                color: #666666;
+                /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif 80px #666666; */
+               padding: 5px;
+                }
+
+        </style>
+    </head>
+    <img src="../TPN°2/imagenes/inmobiliariaLogo.jpg" alt="logo de la inmobiliaria" width="200" height="200">
+    <h1><b><em> <p align="center">Bienvenido al cuestionario de unc inmobiliaria</p></em></b></h1>
+    <form action="#">
+        <p>
+        <label><em>Ingrese su nombre</em></label>
+        </br>
+        <input class="textbox" type="text" placeholder="Mia" maxlength="25">
+        </br>
+        <label><em>Ingrese su apellido</em></label>
+        </br>
+        <input class="textbox" type="text" placeholder="Venegas" maxlength="25">
+        </br>
+        <label><em>Ingrese su direccion</em></label>
+        </br>
+        <input class="textbox" type="text" placeholder="calle 123" maxlength="30">
+        </br>
+        <label><em>Ingrese su telefono</em></label>
+        </br>
+        <input class="textbox" type="text" placeholder="299" maxlength="15" value="0299">
+        </br>
+        <label><em>Seleccione una opcion</em></label>
+        </br>
+        <input type="radio" checked name="1" value="Compra">Compra
+        </br>
+        <input type="radio" name="1" value="alquiler">Alquiler
+        </br>
+        <label><em>Selleccione la zona</em></label>
+        </br>
+        <input type="checkbox" checked name="2" value="zona centro">zona centro
+        </br>
+        <input type="checkbox" checked name="3" value="zona sur">zona sur
+        </br>
+        <input type="checkbox" name="4" value="zona norte">zona norte
+        </br>
+        <label><em>Deja comentario de tu inmueble deseado</em></label>
+        </br>
+       <textarea ></textarea>
+        </br> 
+         <input class="botones" type="submit" value="Enviar"> 
+         <input class="botones" type="reset" value="Borrar"> 
+    </form>
+    
+</body>
+</html>
