@@ -1,0 +1,60 @@
+
+#cuerpo {
+    display: flex;
+   
+    
+}
+#header{
+    border: red solid;
+    background: rgb(44, 44, 120);
+    height: 130px;
+    color: yellow;
+}
+#nav{
+    
+    border-bottom: red solid;
+    margin-top: 10px;
+    margin-right: 20px;
+    width: 200px;
+   padding-bottom: 100px;
+
+}
+#content{
+    margin: 5px;
+
+}
+#footer{
+     border: red solid;
+    background: rgb(44, 44, 120);
+    height: 100px;
+    color: yellow;
+}
+#contentinner{
+   border-top: red solid;
+    border-bottom: red solid; 
+    width: 1500px;
+     margin-top: 10px;
+    padding-bottom: 100px;
+}
+.enlaces{
+    
+    width: 120px;
+    border: gray;
+    
+}
+ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: black;
+    border-top: red solid;
+    margin-top: 0px;
+}
+li{
+    background-color: rgb(180, 180, 180);
+    border: gray solid;
+    padding: 5px;
+width: 158px;
+}
